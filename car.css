@@ -1,0 +1,71 @@
+#car{
+	height: 1000;
+	width: 1000;
+	position: absolute;
+	margin: auto;
+}
+
+#back-wheel{
+	height: 150px;
+	width: 150px;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+	left: 50px;
+	top: 500px;
+	margin: -150px 0 0 350px;
+	position: absolute;
+
+}
+
+#front-wheel{
+	height: 150px;
+	width: 150px;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+	left: 50px;
+	top: 500px;
+	margin: -150px 0 0 50px;
+	position: absolute;
+
+}
+
+#hood{
+	height: 200px;
+	width: 300px;
+	background-color: white;
+	border: 4px solid black;
+	border-radius: 50% 20px 0 20px;
+	left: 500;
+	top: 400;
+	margin: 200px 0 0 0;
+	position: absolute;
+
+}
+
+#trunk{
+	height: 400px;
+	width: 200px;
+	background-color: white;
+	border: 4px solid black;
+	border-radius: 5px 5px 5px 5px;
+	left: 500;
+	top: 400;
+	margin: 0px 0 0 400px;
+	position: absolute;
+
+}
+
+#cabin{
+	height: 300px;
+	width: 200px;
+	background-color: white;
+	border: 4px solid black;
+	border-radius: 50% 20px 0 20px;
+	left: 500;
+	top: 400;
+	margin:100px 0 0px 250px;
+	position: absolute;
+
+}
